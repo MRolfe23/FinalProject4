@@ -256,7 +256,7 @@ public class Project4Controller {
 
 		//bt
 		TableColumn<twinsTable, SimpleStringProperty> btColumn = new TableColumn<>("BT");
-		btColumn.setCellValueFactory(new PropertyValueFactory<>("bt"));
+		btColumn.setCellValueFactory(new PropertyValueFactory<>("BT"));
 		
 		//height
 		TableColumn<twinsTable, SimpleStringProperty> heightColumn = new TableColumn<>("Height");
@@ -268,7 +268,7 @@ public class Project4Controller {
 
 		//dob
 		TableColumn<twinsTable, SimpleStringProperty> dobColumn = new TableColumn<>("DOB");
-		dobColumn.setCellValueFactory(new PropertyValueFactory<>("dob"));
+		dobColumn.setCellValueFactory(new PropertyValueFactory<>("DOB"));
 		
 		twinsRosterdb.setItems(filteredData);
 		twinsRosterdb.getColumns().addAll(playerIDColumn, jerseyNumberColumn, playerColumn, btColumn, heightColumn, weightColumn, dobColumn);
