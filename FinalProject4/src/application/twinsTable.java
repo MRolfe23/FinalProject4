@@ -24,14 +24,14 @@ public class twinsTable {
     private final SimpleStringProperty weight;
     private final SimpleStringProperty dob;
     
-    twinsTable(int playerID, int jerseyNumber, String player, String bt, String height, String weight, String dob) {
+    twinsTable(int playerID, int jerseyNumber, String player, String BT, String height, String weight, String DOB) {
         this.playerID = new SimpleIntegerProperty(playerID); 
         this.jerseyNumber = new SimpleIntegerProperty(jerseyNumber);
         this.player = new SimpleStringProperty(player);
-        this.bt = new SimpleStringProperty(bt);
+        this.bt = new SimpleStringProperty(BT);
         this.height = new SimpleStringProperty(height);
         this.weight = new SimpleStringProperty(weight);
-        this.dob = new SimpleStringProperty(dob);
+        this.dob = new SimpleStringProperty(DOB);
     }
     
 
